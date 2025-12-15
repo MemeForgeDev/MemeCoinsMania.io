@@ -6,7 +6,7 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    background-color: #161616;
+    background-color: #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +36,10 @@
     color: red;
     font-weight: bold;
   }
+  .check-item::before {
+    content: "✅ ";
+    margin-right: 5px;
+  }
 </style>
 </head>
 <body>
@@ -44,72 +48,58 @@
   <h2>🟢 LABUPOP PRESALE CHECKLIST</h2>
 
   <h3>1️⃣ Presale Wallet</h3>
-  <p>
-    - <span class="red-bold">New Tonkeeper wallet created</span> for presale only<br>
-    - <span class="red-bold">Address is published on Telegram/X</span><br>
-    - Seed phrase safely stored<br>
-    - Address will not change during presale<br>
-    - Address verified: <span class="red-bold">UQAWIuHvgsvt44Hj4dehozDbjMPN7lqYpA_DXKFp1ukr8G2r</span>
-  </p>
+  <p class="check-item"><span class="red-bold">New Tonkeeper wallet created</span> for presale only</p>
+  <p class="check-item"><span class="red-bold">Address is published on Telegram/X</span></p>
+  <p class="check-item">Seed phrase safely stored</p>
+  <p class="check-item">Address will not change during presale</p>
+  <p class="check-item">Address verified: <span class="red-bold">UQAWIuHvgsvt44Hj4dehozDbjMPN7lqYpA_DXKFp1ukr8G2r</span></p>
 
   <h3>2️⃣ Presale Structure</h3>
-  <p>
-    - <span class="red-bold">Hard Cap:</span> 500 TON<br>
-    - <span class="red-bold">Presale token allocation:</span> 400,000,000 LABUPOP (40%)<br>
-    - <span class="red-bold">Presale price:</span> 1 TON = 800,000 LABUPOP<br>
-    - <span class="red-bold">LP starting price:</span> 1 TON = 700,000 LABUPOP<br>
-    - <span class="red-bold">LP platform:</span> STON.fi<br>
-    - <span class="red-bold">Token distribution after LP:</span><br>
-    &nbsp;&nbsp;&nbsp;• 70% LP → 350 TON + 245,000,000 LABUPOP<br>
-    &nbsp;&nbsp;&nbsp;• 30% reserve / marketing → 155,000,000 LABUPOP
-  </p>
+  <p class="check-item"><span class="red-bold">Hard Cap:</span> 500 TON</p>
+  <p class="check-item"><span class="red-bold">Presale token allocation:</span> 400,000,000 LABUPOP (40%)</p>
+  <p class="check-item"><span class="red-bold">Presale price:</span> 1 TON = 800,000 LABUPOP</p>
+  <p class="check-item"><span class="red-bold">LP starting price:</span> 1 TON = 700,000 LABUPOP</p>
+  <p class="check-item"><span class="red-bold">LP platform:</span> STON.fi</p>
+  <p class="check-item"><span class="red-bold">Token distribution after LP:</span></p>
+  <p class="check-item" style="margin-left:20px;">70% LP → 350 TON + 245,000,000 LABUPOP</p>
+  <p class="check-item" style="margin-left:20px;">30% reserve / marketing → 155,000,000 LABUPOP</p>
 
   <h3>3️⃣ Presale Rules</h3>
-  <p>
-    - <span class="red-bold">Fixed-price presale</span><br>
-    - <span class="red-bold">First come, first served</span><br>
-    - No KYC<br>
-    - TON only → presale wallet<br>
-    - Investors can add <span class="red-bold">memo with Telegram @username</span> (recommended)<br>
-    - Presale ends when Hard Cap is reached<br>
-    - We <span class="red-bold">NEVER</span> DM investors first
-  </p>
+  <p class="check-item"><span class="red-bold">Fixed-price presale</span></p>
+  <p class="check-item"><span class="red-bold">First come, first served</span></p>
+  <p class="check-item">No KYC</p>
+  <p class="check-item">TON only → presale wallet</p>
+  <p class="check-item">Investors can add <span class="red-bold">memo with Telegram @username</span> (recommended)</p>
+  <p class="check-item">Presale ends when Hard Cap is reached</p>
+  <p class="check-item">We <span class="red-bold">NEVER</span> DM investors first</p>
 
   <h3>4️⃣ Publicity / Transparency</h3>
-  <p>
-    - Pin presale wallet in Telegram<br>
-    - Publish presale wallet + rules on X (Twitter)<br>
-    - Maintain <span class="red-bold">Google Sheet / Spreadsheet</span> with:<br>
-    &nbsp;&nbsp;&nbsp;• Investor wallet<br>
-    &nbsp;&nbsp;&nbsp;• TON contribution<br>
-    &nbsp;&nbsp;&nbsp;• LABUPOP allocation<br>
-    &nbsp;&nbsp;&nbsp;• TX link<br>
-    - Regular updates for investors (1–2x per day)
-  </p>
+  <p class="check-item">Pin presale wallet in Telegram</p>
+  <p class="check-item">Publish presale wallet + rules on X (Twitter)</p>
+  <p class="check-item">Maintain <span class="red-bold">Google Sheet / Spreadsheet</span> with:</p>
+  <p class="check-item" style="margin-left:20px;">Investor wallet</p>
+  <p class="check-item" style="margin-left:20px;">TON contribution</p>
+  <p class="check-item" style="margin-left:20px;">LABUPOP allocation</p>
+  <p class="check-item" style="margin-left:20px;">TX link</p>
+  <p class="check-item">Regular updates for investors (1–2x per day)</p>
 
   <h3>5️⃣ LP Creation on STON.fi</h3>
-  <p>
-    - Add <span class="red-bold">350 TON + 245,000,000 LABUPOP</span><br>
-    - Set LP price: 1 TON = 700,000 LABUPOP<br>
-    - Lock / burn LP tokens (if possible)<br>
-    - Publish LP link for investors
-  </p>
+  <p class="check-item">Add <span class="red-bold">350 TON + 245,000,000 LABUPOP</span></p>
+  <p class="check-item">Set LP price: 1 TON = 700,000 LABUPOP</p>
+  <p class="check-item">Lock / burn LP tokens (if possible)</p>
+  <p class="check-item">Publish LP link for investors</p>
 
   <h3>6️⃣ Token Distribution (Claim)</h3>
-  <p>
-    - Prepare <span class="red-bold">manual or batch distribution</span><br>
-    - Investors receive tokens after LP launch<br>
-    - Ensure all presale participants receive their allocation
-  </p>
+  <p class="check-item">Prepare <span class="red-bold">manual or batch distribution</span></p>
+  <p class="check-item">Investors receive tokens after LP launch</p>
+  <p class="check-item">Ensure all presale participants receive their allocation</p>
 
   <h3>7️⃣ Anti-FUD / Security</h3>
-  <p>
-    - Only one official presale address<br>
-    - No alternative addresses<br>
-    - Never DM investors<br>
-    - Publish all info on tokenomics, LP, Hard Cap<br>
-    - Maintain full documentation of contributions
-  </p>
+  <p class="check-item">Only one official presale address</p>
+  <p class="check-item">No alternative addresses</p>
+  <p class="check-item">Never DM investors</p>
+  <p class="check-item">Publish all info on tokenomics, LP, Hard Cap</p>
+  <p class="check-item">Maintain full documentation of contributions</p>
 
 </div>
 
