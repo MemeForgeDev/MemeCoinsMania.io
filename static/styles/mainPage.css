@@ -454,6 +454,10 @@
         box-shadow: 0 0 10px rgba(0, 140, 255, 0.5);
     }
 
+    .ton-btn:nth-child(3) {
+        background: linear-gradient(135deg, #dda302, #eec927);
+        box-shadow: 0 0 10px rgba(119, 97, 1, 0.5);
+    }
 
     .ton-btn .icon {
         font-size: 1.2em;
@@ -849,5 +853,6 @@
     }
 
     /* #endregion */
+
 
 
